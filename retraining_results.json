@@ -1,0 +1,118 @@
+{
+  "selected_model": "Logistic Regression (Tuned)",
+  "train_rows": 1176,
+  "test_rows": 294,
+  "train_attrition_rate": 0.16156462585034015,
+  "test_attrition_rate": 0.1598639455782313,
+  "selected_cv_f1": 0.5913297160030083,
+  "selected_cv_roc_auc": 0.8439912078303742,
+  "test_summary": [
+    {
+      "Model": "Decision Tree (Tuned)",
+      "Train Accuracy": 0.8231,
+      "Test Accuracy": 0.7789,
+      "Precision (Yes)": 0.3816,
+      "Recall (Yes)": 0.617,
+      "F1-Score (Yes)": 0.4715,
+      "ROC-AUC": 0.7183
+    },
+    {
+      "Model": "Logistic Regression (Baseline)",
+      "Train Accuracy": 0.7832,
+      "Test Accuracy": 0.7585,
+      "Precision (Yes)": 0.3571,
+      "Recall (Yes)": 0.6383,
+      "F1-Score (Yes)": 0.458,
+      "ROC-AUC": 0.8033
+    },
+    {
+      "Model": "Logistic Regression (Tuned)",
+      "Train Accuracy": 0.9065,
+      "Test Accuracy": 0.8605,
+      "Precision (Yes)": 0.6154,
+      "Recall (Yes)": 0.3404,
+      "F1-Score (Yes)": 0.4384,
+      "ROC-AUC": 0.8163
+    },
+    {
+      "Model": "Decision Tree (Baseline)",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.7721,
+      "Precision (Yes)": 0.2727,
+      "Recall (Yes)": 0.2553,
+      "F1-Score (Yes)": 0.2637,
+      "ROC-AUC": 0.5629
+    },
+    {
+      "Model": "Random Forest (Tuned)",
+      "Train Accuracy": 0.9983,
+      "Test Accuracy": 0.8231,
+      "Precision (Yes)": 0.3529,
+      "Recall (Yes)": 0.1277,
+      "F1-Score (Yes)": 0.1875,
+      "ROC-AUC": 0.78
+    },
+    {
+      "Model": "Random Forest (Baseline)",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.8469,
+      "Precision (Yes)": 0.6667,
+      "Recall (Yes)": 0.0851,
+      "F1-Score (Yes)": 0.1509,
+      "ROC-AUC": 0.7622
+    }
+  ],
+  "confusion_matrix": [
+    [
+      237,
+      10
+    ],
+    [
+      31,
+      16
+    ]
+  ],
+  "classification_report": "                  precision    recall  f1-score   support\n\nNo Attrition (0)     0.8843    0.9595    0.9204       247\n   Attrition (1)     0.6154    0.3404    0.4384        47\n\n        accuracy                         0.8605       294\n       macro avg     0.7499    0.6500    0.6794       294\n    weighted avg     0.8413    0.8605    0.8433       294\n",
+  "rf_top10": [
+    {
+      "Feature": "num__MonthlyIncome",
+      "Importance": 0.07492458516216602
+    },
+    {
+      "Feature": "num__TotalWorkingYears",
+      "Importance": 0.055098826468752936
+    },
+    {
+      "Feature": "num__Age",
+      "Importance": 0.054577279030485086
+    },
+    {
+      "Feature": "num__YearsAtCompany",
+      "Importance": 0.04395790216905414
+    },
+    {
+      "Feature": "num__DailyRate",
+      "Importance": 0.04231627121946528
+    },
+    {
+      "Feature": "cat__OverTime_Yes",
+      "Importance": 0.04175555410786763
+    },
+    {
+      "Feature": "num__HourlyRate",
+      "Importance": 0.03736007443598756
+    },
+    {
+      "Feature": "num__MonthlyRate",
+      "Importance": 0.037037877545444735
+    },
+    {
+      "Feature": "num__ManagerTenureRatio",
+      "Importance": 0.035532063002948276
+    },
+    {
+      "Feature": "num__DistanceFromHome",
+      "Importance": 0.0325421201753791
+    }
+  ]
+}

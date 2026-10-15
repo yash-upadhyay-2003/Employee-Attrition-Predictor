@@ -1,0 +1,12 @@
+# Employee Attrition Predictor — Production Dependencies
+# Environment: Python 3.11.x (x86_64)
+
+scikit-learn==1.6.1
+pandas==2.3.3
+numpy==2.0.2
+joblib==1.6.0
+streamlit==1.66.0
+scipy==1.17.1
+matplotlib==3.11.2
+seaborn==0.13.2
+nbformat==5.11.1

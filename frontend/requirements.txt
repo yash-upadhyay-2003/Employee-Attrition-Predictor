@@ -1,0 +1,4 @@
+# Streamlit Frontend Production Dependencies (Streamlit Cloud / Web Deployment)
+# Minimal frontend client requirements — no model-serving or machine learning dependencies
+streamlit==1.66.0
+requests>=2.31.0
